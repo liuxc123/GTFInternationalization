@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04002D5D212BDDA600283239 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04002D5B212BDDA600283239 /* InfoPlist.strings */; };
+		04002D5F212BDDB100283239 /* GTFInternationalization-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6003F595195388D20070C39A /* GTFInternationalization-Info.plist */; };
+		04002D62212BDDD000283239 /* Countries.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04002D64212BDDD000283239 /* Countries.strings */; };
+		04D6FA90212AAE5600978953 /* CountryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6FA8A212AAE5600978953 /* CountryTableViewController.m */; };
+		04D6FA91212AAE5600978953 /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6FA8B212AAE5600978953 /* CountryCell.m */; };
+		04D6FA92212AAE5600978953 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6FA8C212AAE5600978953 /* InformationViewController.m */; };
+		04D6FA93212AAE5600978953 /* BidirectionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6FA8E212AAE5600978953 /* BidirectionalViewController.m */; };
+		04D6FA97212AB01800978953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D6FA95212AB01700978953 /* Assets.xcassets */; };
+		04D6FA98212AB01800978953 /* Flags.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D6FA96212AB01800978953 /* Flags.xcassets */; };
 		1B80174C7F44B173557A0BB5 /* Pods_GTFInternationalization_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECAAB50AB100B9AFCAD4769 /* Pods_GTFInternationalization_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* GTAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GTViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		75795CE95066CB1046342429 /* Pods_GTFInternationalization_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB9FEEA2645FBC3743EC840 /* Pods_GTFInternationalization_Tests.framework */; };
@@ -37,34 +43,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04002D66212BDDEA00283239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Countries.strings; sourceTree = "<group>"; };
+		04002D6A212BE20500283239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04D6FA88212AAE5500978953 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		04D6FA89212AAE5500978953 /* BidirectionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BidirectionalViewController.h; sourceTree = "<group>"; };
+		04D6FA8A212AAE5600978953 /* CountryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryTableViewController.m; sourceTree = "<group>"; };
+		04D6FA8B212AAE5600978953 /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCell.m; sourceTree = "<group>"; };
+		04D6FA8C212AAE5600978953 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		04D6FA8D212AAE5600978953 /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCell.h; sourceTree = "<group>"; };
+		04D6FA8E212AAE5600978953 /* BidirectionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BidirectionalViewController.m; sourceTree = "<group>"; };
+		04D6FA8F212AAE5600978953 /* CountryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryTableViewController.h; sourceTree = "<group>"; };
+		04D6FA95212AB01700978953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D6FA96212AB01800978953 /* Flags.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Flags.xcassets; sourceTree = "<group>"; };
+		04E13778212BE8620021E9E3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		04E13779212BE8620021E9E3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		04E1377A212BE8620021E9E3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Countries.strings"; sourceTree = "<group>"; };
+		04E1377B212BE9430021E9E3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		04E1377C212BE9430021E9E3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04E1377D212BE9430021E9E3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Countries.strings; sourceTree = "<group>"; };
 		1ECAAB50AB100B9AFCAD4769 /* Pods_GTFInternationalization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTFInternationalization_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2FF6E2C93C228284676EF1 /* Pods-GTFInternationalization_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTFInternationalization_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTFInternationalization_Tests/Pods-GTFInternationalization_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GTFInternationalization_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTFInternationalization_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* GTFInternationalization-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GTFInternationalization-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* GTFInternationalization-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTFInternationalization-Prefix.pch"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* GTFInternationalization-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GTFInternationalization-Info.plist"; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* GTFInternationalization-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTFInternationalization-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* GTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* GTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* GTFInternationalization_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTFInternationalization_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99F4504E0A043884E5EA284D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B55641D62DA576E6D7C9B0D6 /* GTFInternationalization.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GTFInternationalization.podspec; path = ../GTFInternationalization.podspec; sourceTree = "<group>"; };
+		99F4504E0A043884E5EA284D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B55641D62DA576E6D7C9B0D6 /* GTFInternationalization.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GTFInternationalization.podspec; path = ../GTFInternationalization.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B8B3EC85F3D51F8DABBF3C74 /* Pods-GTFInternationalization_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTFInternationalization_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTFInternationalization_Example/Pods-GTFInternationalization_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CFB9FEEA2645FBC3743EC840 /* Pods_GTFInternationalization_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTFInternationalization_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA8927F990DC6A80437C7F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DDA8927F990DC6A80437C7F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EE9778A315B92C0589F84085 /* Pods-GTFInternationalization_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTFInternationalization_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTFInternationalization_Example/Pods-GTFInternationalization_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB597647E088098D07289742 /* Pods-GTFInternationalization_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTFInternationalization_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTFInternationalization_Tests/Pods-GTFInternationalization_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,11 +155,22 @@
 			children = (
 				6003F59C195388D20070C39A /* GTAppDelegate.h */,
 				6003F59D195388D20070C39A /* GTAppDelegate.m */,
+				04D6FA89212AAE5500978953 /* BidirectionalViewController.h */,
+				04D6FA8E212AAE5600978953 /* BidirectionalViewController.m */,
+				04D6FA8D212AAE5600978953 /* CountryCell.h */,
+				04D6FA8B212AAE5600978953 /* CountryCell.m */,
+				04D6FA8F212AAE5600978953 /* CountryTableViewController.h */,
+				04D6FA8A212AAE5600978953 /* CountryTableViewController.m */,
+				04D6FA88212AAE5500978953 /* InformationViewController.h */,
+				04D6FA8C212AAE5600978953 /* InformationViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* GTViewController.h */,
 				6003F5A6195388D20070C39A /* GTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				04D6FA95212AB01700978953 /* Assets.xcassets */,
+				04D6FA96212AB01800978953 /* Flags.xcassets */,
+				04002D5B212BDDA600283239 /* InfoPlist.strings */,
+				04002D64212BDDD000283239 /* Countries.strings */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for GTFInternationalization";
@@ -149,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				6003F595195388D20070C39A /* GTFInternationalization-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* GTFInternationalization-Prefix.pch */,
 			);
@@ -169,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -207,7 +237,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				86839075AA802DEE5EF22EF0 /* [CP] Embed Pods Frameworks */,
+				138E2F6E0BC7C827D04FCE17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,7 +274,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GT;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = liuxc123;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -257,8 +287,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				"zh-Hans",
+				ar,
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -277,9 +308,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				04D6FA98212AB01800978953 /* Flags.xcassets in Resources */,
+				04002D62212BDDD000283239 /* Countries.strings in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				04D6FA97212AB01800978953 /* Assets.xcassets in Resources */,
+				04002D5F212BDDB100283239 /* GTFInternationalization-Info.plist in Resources */,
+				04002D5D212BDDA600283239 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +321,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		138E2F6E0BC7C827D04FCE17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GTFInternationalization_Example/Pods-GTFInternationalization_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTFInternationalization/GTFInternationalization.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTFInternationalization.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTFInternationalization_Example/Pods-GTFInternationalization_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		415620BF8DE23FFD5DBF0065 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,24 +361,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		86839075AA802DEE5EF22EF0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GTFInternationalization_Example/Pods-GTFInternationalization_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTFInternationalization/GTFInternationalization.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTFInternationalization.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTFInternationalization_Example/Pods-GTFInternationalization_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A9D7B51C8F1A6882AE989333 /* [CP] Check Pods Manifest.lock */ = {
@@ -355,8 +388,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D6FA93212AAE5600978953 /* BidirectionalViewController.m in Sources */,
 				6003F59E195388D20070C39A /* GTAppDelegate.m in Sources */,
+				04D6FA91212AAE5600978953 /* CountryCell.m in Sources */,
 				6003F5A7195388D20070C39A /* GTViewController.m in Sources */,
+				04D6FA92212AAE5600978953 /* InformationViewController.m in Sources */,
+				04D6FA90212AAE5600978953 /* CountryTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,26 +417,32 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+		04002D5B212BDDA600283239 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F597195388D20070C39A /* en */,
+				04002D6A212BE20500283239 /* Base */,
+				04E13779212BE8620021E9E3 /* zh-Hans */,
+				04E1377C212BE9430021E9E3 /* ar */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+		04002D64212BDDD000283239 /* Countries.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5B9195388D20070C39A /* en */,
+				04002D66212BDDEA00283239 /* Base */,
+				04E1377A212BE8620021E9E3 /* zh-Hans */,
+				04E1377D212BE9430021E9E3 /* ar */,
 			);
-			name = InfoPlist.strings;
+			name = Countries.strings;
 			sourceTree = "<group>";
 		};
 		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				71719F9E1E33DC2100824A3D /* Base */,
+				04E13778212BE8620021E9E3 /* zh-Hans */,
+				04E1377B212BE9430021E9E3 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -411,23 +454,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -451,22 +508,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

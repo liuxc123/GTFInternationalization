@@ -1,0 +1,27 @@
+/* 
+  Countries.strings
+  GTFInternationalization
+
+  Created by liuxc on 2018/8/21.
+  Copyright © 2018年 liuxc123. All rights reserved.
+*/
+
+"ARG" = "阿根廷";
+"AUS" = "澳大利亚";
+"BTN" = "不丹";
+"CAN" = "加拿大";
+"FRA" = "法国";
+"GRC" = "希腊";
+"IND" = "印度";
+"JAM" = "牙买加";
+"JPN" = "日本";
+"MEX" = "墨西哥";
+"NPL" = "尼泊尔";
+"PNG" = "巴布新几内亚";
+"QAT" = "卡塔尔";
+"SVK" = "斯洛伐克";
+"TUN" = "突尼斯";
+"USA" = "美国";
+"ZAF" = "南非";
+"ZMB" = "赞比亚";
+

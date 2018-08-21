@@ -8,11 +8,19 @@
 
 #import "GTAppDelegate.h"
 
+#import "CountryTableViewController.h"
+
+
 @implementation GTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Allow playback so country names can be spoken over the main speaker
+    NSError *error;
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&error];
+    if (error) {
+        NSLog(@"Error setting the category on AVAudioSession");
+    }
     return YES;
 }
 

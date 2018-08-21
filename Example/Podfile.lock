@@ -1,0 +1,16 @@
+PODS:
+  - GTFInternationalization (0.0.1)
+
+DEPENDENCIES:
+  - GTFInternationalization (from `../`)
+
+EXTERNAL SOURCES:
+  GTFInternationalization:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTFInternationalization: be19053829d3f4786f66114321112b5b3957beaf
+
+PODFILE CHECKSUM: 6144f487cc31a86d9c653be64b57017b9d5c270f
+
+COCOAPODS: 1.5.0

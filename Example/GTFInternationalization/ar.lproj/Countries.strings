@@ -1,0 +1,26 @@
+/* 
+  Countries.strings
+  GTFInternationalization
+
+  Created by liuxc on 2018/8/21.
+  Copyright © 2018年 liuxc123. All rights reserved.
+*/
+
+"ARG" = "الأرجنتين";
+"AUS" = "استراليا";
+"BTN" = "بوتان";
+"CAN" = "كندا";
+"FRA" = "فرنسا";
+"GRC" = "اليونان";
+"IND" = "الهند";
+"JAM" = "جامايكا";
+"JPN" = "اليابان";
+"MEX" = "المكسيك";
+"NPL" = "نيبال";
+"PNG" = "بابوا غينيا الجديدة";
+"QAT" = "قطر";
+"SVK" = "سلوفاكيا";
+"TUN" = "تونس";
+"USA" = "الولايات المتحدة الأمريكية";
+"ZAF" = "جنوب أفريقيا";
+"ZMB" = "زامبيا";
